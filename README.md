@@ -39,6 +39,16 @@ playstore_reviews.csv - It contains the user reviews for respective app.
       <h3>Data Cleaning</h3><br>
       <h3>Data Transforming</h3><br>
       <h3>Natural Langugage Processing</h3><br>
+      • This project performs sentiment analysis on Google Play Store reviews using NLP and TextBlob. <br>
+      • The analysis is based on three metrics: polarity, subjectivity, and sentiment.<br>
+      • The polarity column indicates the sentiment of each review as positive, negative, or neutral.<br>
+      • The subjectivity column measures the degree of personal opinion in the review on a scale of 0 to 1.<br>
+      • The sentiment column is an aggregate score between -1 and 1 that takes into account both polarity and subjectivity.<br>
+      • A score of -1 indicates an extremely negative review, 1 indicates an extremely positive review, and 0 indicates a neutral review.<br>
+      • The goal of this project is to provide insights into the sentiment of Google Play Store reviews.<br>
+      • These insights can be useful for improving product quality and customer satisfaction.<br>
+      • The project uses NLP and TextBlob to analyze text data, making it an excellent example of applied natural language processing.<br>
+      • This project is a valuable resource for anyone interested in sentiment analysis, NLP, or data analysis in general.
       <h3>Exploratory Data Analysis</h3><br>
 </p>
       
