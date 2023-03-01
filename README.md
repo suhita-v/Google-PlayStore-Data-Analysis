@@ -48,7 +48,6 @@ playstore_reviews.csv - It contains the user reviews for respective app.
       • The goal of this project is to provide insights into the sentiment of Google Play Store reviews.<br>
       • These insights can be useful for improving product quality and customer satisfaction.<br>
       • The project uses NLP and TextBlob to analyze text data, making it an excellent example of applied natural language processing.<br>
-      • This project is a valuable resource for anyone interested in sentiment analysis, NLP, or data analysis in general.
       <h3>Exploratory Data Analysis</h3><br>
 </p>
       
