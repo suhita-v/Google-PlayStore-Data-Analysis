@@ -34,7 +34,7 @@ playstore_apps.csv - It contains the basic details of the app like number of use
 playstore_reviews.csv - It contains the user reviews for respective app.
 </p>    
     
-<h2>• Steps Involded</h2>
+<h2>• Steps Involved</h2>
 <p>
       <h3>Data Cleaning</h3><br>
       <h3>Data Transforming</h3><br>
