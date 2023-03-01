@@ -3,7 +3,7 @@
 SELECT COUNT(DISTINCT App)
 FROM playstore_apps;
 
-# Number Categories present in the dataset
+# Number of Categories present in the dataset
 -- 33
 SELECT COUNT( DISTINCT Category)
 FROM playstore_apps;
@@ -90,9 +90,7 @@ FROM playstore_apps
 JOIN playstore_reviews on playstore_apps.app = playstore_reviews.app
 GROUP BY playstore_apps.Category;
 
-/* Q.10 Provide the list of all games ordered in such a way that the game that has the highest number of installs is displayed on the top 
-(to avoid duplicate results use distinct) */
-
+Q.10 Provide the list of all games ordered in such a way that the game that has the highest number of installs is displayed on the top 
 SELECT DISTINCT App, Installs, Category
 FROM playstore_apps
 WHERE Category= 'Game'
