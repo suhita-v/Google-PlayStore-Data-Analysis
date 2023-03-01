@@ -10,7 +10,7 @@
 </p>
     
 
-<h2>• Techstack Used</h2>
+<h2>• Tools Used</h2>
 <p>
   > Microsoft Excel <br>
   > Google Colab (Python libraries - Numpy, Pandas, Seaborn, Matplotlib, TextBlob)<br>
