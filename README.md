@@ -6,7 +6,7 @@
     
 <h2>• Objective</h2>
 <p>
-  
+  The objective of this project is to gain insights into the applications hosted on Google Playstore and the sentiment of their user reviews and present these ingsights in the form of visualisation which can be used to improve the overall experience and optimise the application development processes.
 </p>
     
 
@@ -34,3 +34,22 @@ playstore_apps.csv - It contains the basic details of the app like number of use
 playstore_reviews.csv - It contains the user reviews for respective app.
 </p>    
     
+<h2>• Steps Involded</h2>
+<p>
+  
+</p>
+      
+<h2>• Problem Statement</h2>
+<p>
+  
+</p>
+      
+<h2>• Challenges Faced</h2>
+<p>
+  
+</p>      
+      
+<h2>• Conclusion</h2>
+<p>
+  
+</p>      
