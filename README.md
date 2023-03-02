@@ -109,7 +109,13 @@ https://github.com/Kaushaldev15/Google-PlayStore-Data-Analysis/blob/0e614886439d
       
 <h2>• Challenges Faced</h2>
 <p> 
-  
+  • The Amount of Null values in the dataset were very high and had to be dropped while cleaning which took out almost 13.75% of the dataset, the integrity of the dataset was weak which lead to dropping 1491 rows just to remove Null values. <br>
+    
+    
+  • The combined dataset comprising of both Playstore Apps and user reviews had only 500 apps in common, which accounts for merely 6.1 % of the total cleaned data. With a larger overlap of around 70% - 80% between the datasets, we could have derived more meaningful insights and conducted more valuable analysis. <br>
+    
+    
+  • Many of the applications had their names containing only symbols and invalid characters, we found that those applications didn’t exist on the Google Playstore so we these applications had to be removed from the analysis. <br>
 </p>      
       
 <h2>• Conclusion</h2>
