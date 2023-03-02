@@ -138,6 +138,10 @@ https://github.com/Kaushaldev15/Google-PlayStore-Data-Analysis/blob/0e614886439d
 - Sentiment Subjectivity is directly proportional to sentiment polarity in maximum reviews.
 - 40.02% of the Total reviews are Moderately Personal, followed by Moderately Factual at 27.54% and then by Factual Opinion at 16.53% and 15.90% are Personal Opinion. 
 - Bivariate analysis of the following present some deeper insights as depicted - <br>
-
+</p>
+<p align="center">
+<img width="800" src="images/Prive and Rating.png" alt="Price and Rating">
+<img width="800" src="images/Rating and Last Updated.png" alt="Rating and Last Updated">
+<img width="800" src="images/Type and Last Updated.png" alt="Type and Last Updated">
 
 </p>
