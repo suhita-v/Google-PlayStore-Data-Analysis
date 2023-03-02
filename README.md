@@ -26,11 +26,12 @@ This Project includes 1 colab notebook, 1 SQL text file and 1 PowerBI report pdf
   
 <b>MySQL - </b>Includes all the queries that answer the problem statements based on the dataset.
   
-<b>Power BI - </b>https://app.powerbi.com/view?r=eyJrIjoiODMwYzNkN2ItYmZhZi00MjNmLTg4YTMtNDM3ZWZmNTRlMzg2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9 (Please refer to PowerBI Reports.pdf for python visualisations)
-  
+<b>Power BI - </b>https://app.powerbi.com/view?r=eyJrIjoiODMwYzNkN2ItYmZhZi00MjNmLTg4YTMtNDM3ZWZmNTRlMzg2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9 <br>
+  Please refer to PowerBI Reports.pdf for python visualisations on the 4th page: <br>
+https://github.com/Kaushaldev15/Google-PlayStore-Data-Analysis/blob/0e614886439d46e475c99863c96b3e475793662a/PowerBI%20Reports.pdf  
   
 <b>Data Source : </b> Kaggle <br>
-<b>playstore_apps.csv - <b/>It contains the basic details of the app like number of user reviews, ratings, etc. <br>
+playstore_apps.csv - It contains the basic details of the app like number of user reviews, ratings, etc. <br>
 - App: It contains the name of the app with a short description (optional).
 - Category: This section gives the category to which an app belongs. In this dataset, the apps are divided among 33 categories.
 - Size: The disk space required to install the respective app.
@@ -46,7 +47,7 @@ This Project includes 1 colab notebook, 1 SQL text file and 1 PowerBI report pdf
 - Android Ver: It gives the android version of the respective app.<br>
     
     
-<b>playstore_reviews.csv - <b/>It contains the user reviews for respective app.<br>
+playstore_reviews.csv - It contains the user reviews for respective app.<br>
 - App: It contains the name of the app with a short description (optional).
 - Translated_Review: It contains the English translation of the review dropped by the user of the app.<br>
     
@@ -55,20 +56,15 @@ This Project includes 1 colab notebook, 1 SQL text file and 1 PowerBI report pdf
     
 <h2>• Steps Involved</h2>
 <p>
-      <h3>Data Cleaning and Transforming</h3><br>
+      <h3>Data Cleaning and Transforming</h3>
     To prepare the data for analysis, we performed several data cleaning steps. First, we checked for null values to ensure that there were no missing pieces of data. We also identified and removed outliers, especially in cases where ratings had a specific range. If null values existed and needed to be replaced with some value, we inserted values using the modeValue method. We modified data values, for size column we removed symbols like K and M and replaced them with their respective values, as well as removed unwanted characters like "+" and ",". We changed data types of columns to ensure that the data was in a format that was easy to analyze. Finally, we dropped duplicates and checked unique values to ensure the integrity of the data and that it was compliant with the intended datatype. A new column 'Revenue' was added by multiplying the prices and installs value for each record.
-      <h3>Natural Langugage Processing</h3><br>
-      • This project performs sentiment analysis on Google Play Store reviews using NLP and TextBlob. <br>
-      • The analysis is based on three metrics: polarity, subjectivity, and sentiment.<br>
-      • The polarity column indicates the sentiment of each review as positive, negative, or neutral.<br>
-      • The subjectivity column measures the degree of personal opinion in the review on a scale of 0 to 1, where 0 represents a factual statement and 1 represents a highly opinionated statement.<br>
-      • The sentiment column is an aggregate score between -1 and 1 that takes into account both polarity and subjectivity.<br>
-      • A score of -1 indicates an extremely negative review, 1 indicates an extremely positive review, and 0 indicates a neutral review.<br>
-      • These insights can be useful for improving product quality and customer satisfaction.<br>
-      <h3>Exploratory Data Analysis</h3><br>
-</p>
+      <h3>Sentiment analysis using Natural Langugage Processing</h3>
+    We performed sentiment analysis on Google Play Store reviews using NLP and TextBlob.The analysis is based on three metrics: polarity, subjectivity, and sentiment.  The polarity column indicates the sentiment of each review as positive, negative, or neutral. The subjectivity column measures the degree of personal opinion in the review on a scale of 0 to 1, where 0 represents a factual statement and 1 represents a highly opinionated statement. The sentiment column is an aggregate score between -1 and 1 that takes into account both polarity and subjectivity. A score of -1 indicates an extremely negative review, 1 indicates an extremely positive review, and 0 indicates a neutral review. These insights can be useful for improving product quality and customer satisfaction.<br>
+      <h3>Insights using MySQL</h3>
+       A schema was created having both the datasets to answer the problem statements through queries in MySQL Workbench. <br>
+      https://github.com/Kaushaldev15/Google-PlayStore-Data-Analysis/blob/0e614886439d46e475c99863c96b3 <br>
       
-<h2>• Problem Statement</h2>
+<br> • Problem Statements-
 <p>
   1. Total number of apps present in the Google playstore dataset. <br>
   2. Number of Categories present in the dataset.<br>
@@ -90,6 +86,25 @@ This Project includes 1 colab notebook, 1 SQL text file and 1 PowerBI report pdf
   18. Return the app names, categories, sizes, release dates (rename it to “Last Updated”) of apps whose app names have more than 1 word, and whose categories are music and social, and whose sizes are bigger than 10. Order the output result by maximum installs in descending order, then release dates in ascending order.<br>
   19. Find the number of apps in each category that have a rating greater than the average rating.<br>
   20. List the largest app size within each app category.<br>
+</p>
+       <h3>Data Visualization</h3>
+      Visualization was done in: <br>
+      • Python- using Matplotlib and Seaborn libraries in Google collab: <br> https://github.com/Kaushaldev15/Google-PlayStore-Data-Analysis/blob/0e614886439d46e475c99863c96b3e475793662a/Google_Playstore_DataAnalysis.ipynb <br>
+      
+   <br>  • Power BI- Major part of visualization was done here after loading the cleaned datasets.<br>
+      https://app.powerbi.com/view?r=eyJrIjoiODMwYzNkN2ItYmZhZi00MjNmLTg4YTMtNDM3ZWZmNTRlMzg2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9 <br>
+        Please refer to PowerBI Reports.pdf for python visualisations on the 4th page: <br>
+https://github.com/Kaushaldev15/Google-PlayStore-Data-Analysis/blob/0e614886439d46e475c99863c96b3e475793662a/PowerBI%20Reports.pdf <br>
+      
+<br> Here, we divided our analysis into 3 parts: <br>
+      - Category wise analysis: Top categories, Content rating distribution, Average rating of categories, Revenue, Average app size per category, Sentiment distribution across all categories.<br>
+      - Applications wise analysis: An overview of all applications with different parameters, Bar plots for Installs, Ratings, Revenue, Reviews and Size. <br>
+      - Sentiment analysis of user reviews: Sentiment count by category, Top 5 most positively and negatively reviewed categories and Subjectivity distribution across categories: <br>
+      0-0.25 ~ Factual opinion <br>
+      0.25-0.5 ~ Moderately factual <br>
+      0.5-0.75 ~ Moderately personal <br>
+      0.75-1 ~ Personal opinion <br>
+      
 </p>
       
 <h2>• Challenges Faced</h2>
