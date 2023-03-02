@@ -22,12 +22,12 @@
 <p>
 This Project includes 1 colab notebook, 1 SQL text file and 1 PowerBI report pdf :
   
-<b>Google Colab - </b>Includes all the code and their outputs executed in the python environment.
+<b>Google Colab - </b>Includes all the code and their outputs executed in the python environment. <br> https://github.com/Kaushaldev15/Google-PlayStore-Data-Analysis/blob/84a83df9fafdbb400fff91f52a4fd21c1a240169/Google_Playstore_DataAnalysis.ipynb
   
-<b>MySQL - </b>Includes all the queries that answer the problem statements based on the dataset.
+<b>MySQL - </b>Includes all the queries that answer the problem statements based on the dataset. <br> https://github.com/Kaushaldev15/Google-PlayStore-Data-Analysis/blob/84a83df9fafdbb400fff91f52a4fd21c1a240169/GooglePlaystore.sql
   
 <b>Power BI - </b>https://app.powerbi.com/view?r=eyJrIjoiODMwYzNkN2ItYmZhZi00MjNmLTg4YTMtNDM3ZWZmNTRlMzg2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9 <br>
-  Please refer to PowerBI Reports.pdf for python visualisations on the 4th page: <br>
+Please refer to PowerBI Reports.pdf for python visualisations on the 4th page: <br>
 https://github.com/Kaushaldev15/Google-PlayStore-Data-Analysis/blob/0e614886439d46e475c99863c96b3e475793662a/PowerBI%20Reports.pdf  
   
 <b>Data Source : </b> Kaggle <br>
