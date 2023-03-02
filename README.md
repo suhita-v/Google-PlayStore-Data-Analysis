@@ -120,5 +120,24 @@ https://github.com/Kaushaldev15/Google-PlayStore-Data-Analysis/blob/0e614886439d
       
 <h2>• Conclusion</h2>
 <p>
-  
-</p>      
+
+
+- There are total 33 categories and 8158 applications in the given dataset with an overall average rating of 4.2 and an average application size of 19.38 MB.
+- For content rating, majority of the applications fall under ‘Everyone’ followed by ‘Teen’  and ‘Mature17+’. The least being ‘Adults only 18+’ and Unrated.
+- Majority of the apps, 92.06% are listed as free while only 7.94% being of paid type. ‘Family’ followed by ‘Game’ have the highest number of paid apps.
+- ‘Family’ is the top category with the highest number of applications followed by ‘Game’ while ‘Beauty’ and ‘Comics’ being the lowest.
+- While ‘Family’ is the top category, it lags behind in revenue. ‘Lifestyle’ made the highest revenue followed by ‘Game’ and ‘Family’ while ‘Comics’ and ‘House and home’ made the least revenue.
+- ‘Events’ is the top category with the highest average rating of 4.45 followed by ‘Education’ and ‘Art and design’.
+- ‘Google news’ and ‘Subway surfers’ are the most popular apps in terms of installs with 1000M installs.
+- ‘I am rich’ is the highest earning app followed by it’s premium version and ‘Hitman Sniper’.
+- Clash of Clans, Subway Surfers and Clash Royale are the most reviewed apps with 44 million+ reviews.
+- The largest app on the Play Store is ‘Hungry Shark Evolution’ belonging to ‘Game’ category with 95.37 MB.
+- The total number of reviews are 37,427 out of which 19,222 are of Free apps and 225 reviews are of Paid apps.
+- Majority of the reviews have a positive sentiment followed by Negative and Neutral.
+- ‘Game’ has the highest number of reviews when it comes to Positive and Negative Sentiments followed by ‘Family’.
+- Sentiment Subjectivity is directly proportional to sentiment polarity in maximum reviews.
+- 40.02% of the Total reviews are Moderately Personal, followed by Moderately Factual at 27.54% and then by Factual Opinion at 16.53% and 15.90% are Personal Opinion. 
+- Bivariate analysis of the following present some deeper insights as depicted - <br>
+
+
+</p>
