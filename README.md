@@ -4,13 +4,13 @@
   <h3 align='center'>Project by - Kaushal Devlekar and Suhita Vaidya<h3>
 </p>
     
-<h2>• Objective</h2>
+<h2>➤ Objective</h2>
 <p>
   The objective of this project is to gain insights into the applications hosted on Google Playstore and the sentiment of their user reviews and present these ingsights in the form of visualisation which can be used to improve the overall experience and optimise the application development processes.
 </p>
     
 
-<h2>• Tools Used</h2>
+<h2>➤ Tools Used</h2>
 <p>
   > Microsoft Excel <br>
   > Google Colab (Python libraries - Numpy, Pandas, Seaborn, Matplotlib, TextBlob)<br>
@@ -18,7 +18,7 @@
   >PowerBI
 </p>    
 
-<h2>• Project Files Description</h2>
+<h2>➤ Project Files Description</h2>
 <p>
 This Project includes 1 colab notebook, 1 SQL text file and 1 PowerBI report pdf :
   
@@ -54,7 +54,7 @@ playstore_reviews.csv - It contains the user reviews for respective app.<br>
 
 </p>    
     
-<h2>• Steps Involved</h2>
+<h2>➤ Steps Involved</h2>
 <p>
       <h3>Data Cleaning and Transforming</h3>
     To prepare the data for analysis, we performed several data cleaning steps. First, we checked for null values to ensure that there were no missing pieces of data. We also identified and removed outliers, especially in cases where ratings had a specific range. If null values existed and needed to be replaced with some value, we inserted values using the modeValue method. We modified data values, for size column we removed symbols like K and M and replaced them with their respective values, as well as removed unwanted characters like "+" and ",". We changed data types of columns to ensure that the data was in a format that was easy to analyze. Finally, we dropped duplicates and checked unique values to ensure the integrity of the data and that it was compliant with the intended datatype. A new column 'Revenue' was added by multiplying the prices and installs value for each record.
@@ -107,7 +107,7 @@ https://github.com/Kaushaldev15/Google-PlayStore-Data-Analysis/blob/0e614886439d
       
 </p>
       
-<h2>• Challenges Faced</h2>
+<h2>➤ Challenges Faced</h2>
 <p> 
   • The Amount of Null values in the dataset were very high and had to be dropped while cleaning which took out almost 13.75% of the dataset, the integrity of the dataset was weak which lead to dropping 1491 rows just to remove Null values. <br>
     
@@ -118,7 +118,7 @@ https://github.com/Kaushaldev15/Google-PlayStore-Data-Analysis/blob/0e614886439d
   • Many of the applications had their names containing only symbols and invalid characters, we found that those applications didn’t exist on the Google Playstore so we these applications had to be removed from the analysis. <br>
 </p>      
       
-<h2>• Conclusion</h2>
+<h2>➤ Conclusion</h2>
 <p>
 
 
