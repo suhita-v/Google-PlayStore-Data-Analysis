@@ -89,13 +89,12 @@ playstore_reviews.csv - It contains the user reviews for respective app.<br>
 </p>
        <h3>Data Visualization</h3>
       Visualization was done in: <br>
-      • Python- using Matplotlib and Seaborn libraries in Google collab: <br> https://github.com/Kaushaldev15/Google-PlayStore-Data-Analysis/blob/0e614886439d46e475c99863c96b3e475793662a/Google_Playstore_DataAnalysis.ipynb <br>
+      • Python- using Matplotlib and Seaborn libraries in Google collab: <br>https://github.com/suhita-v/Google-PlayStore-Data-Analysis/blob/main/Google_Playstore_DataAnalysis.ipynb <br>
       
    <br>  • Power BI- Major part of visualization was done here after loading the cleaned datasets.<br>
       https://app.powerbi.com/view?r=eyJrIjoiODMwYzNkN2ItYmZhZi00MjNmLTg4YTMtNDM3ZWZmNTRlMzg2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9 <br>
         Please refer to PowerBI Reports.pdf for python visualisations on the 4th page: <br>
-https://github.com/Kaushaldev15/Google-PlayStore-Data-Analysis/blob/0e614886439d46e475c99863c96b3e475793662a/PowerBI%20Reports.pdf <br>
-      
+https://github.com/suhita-v/Google-PlayStore-Data-Analysis/blob/main/PowerBI%20Reports.pdf      
 <br> Here, we divided our analysis into 3 parts: <br>
       - Category wise analysis: Top categories, Content rating distribution, Average rating of categories, Revenue, Average app size per category, Sentiment distribution across all categories.<br>
       - Applications wise analysis: An overview of all applications with different parameters, Bar plots for Installs, Ratings, Revenue, Reviews and Size. <br>
