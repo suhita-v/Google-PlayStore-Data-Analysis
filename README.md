@@ -6,7 +6,7 @@
     
 <h2>➤ Objective</h2>
 <p>
-  The objective of this project is to gain insights into the applications hosted on Google Playstore and the sentiment of their user reviews and present these ingsights in the form of visualisation which can be used to improve the overall experience and optimise the application development processes.
+  The objective of this project is to gain insights into the applications hosted on Google Playstore and the sentiment of their user reviews and present these insights in the form of visualisation which can be used to improve the overall experience and optimise the application development processes.
 </p>
     
 
